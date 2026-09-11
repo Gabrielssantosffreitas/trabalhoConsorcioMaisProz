@@ -1,0 +1,52 @@
+ header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 10;
+        }
+
+        .navbar {
+            min-height: 80px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            color: var(--white);
+            font-family: "Lora", Georgia, serif;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .logo span {
+            color: var(--gold);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            color: #E9EEF3;
+            font-size: 14px;
+        }
+
+        .nav-links a {
+            transition: color .2s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--gold);
+        }
+
+        .nav-button {
+            padding: 11px 20px;
+            border-radius: 5px;
+
+            background: var(--gold);
+            color: var(--navy);
+            font-weight: 700;
+        }

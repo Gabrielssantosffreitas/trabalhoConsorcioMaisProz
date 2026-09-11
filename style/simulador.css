@@ -1,0 +1,75 @@
+
+        .simulator-section {
+            background: var(--white);
+        }
+
+        .simulator-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+
+            padding: 50px;
+
+            background: var(--ice);
+        }
+
+        .simulator-info h2 {
+            margin-bottom: 20px;
+        }
+
+        .simulator-info p {
+            color: var(--muted);
+            margin-bottom: 25px;
+        }
+
+        .simulator-form {
+            padding: 30px;
+
+            background: var(--white);
+            box-shadow: 0 15px 35px rgba(19, 42, 69, .08);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 7px;
+
+            color: var(--navy);
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            height: 48px;
+
+            padding: 0 14px;
+
+            border: 1px solid var(--border);
+            border-radius: 4px;
+
+            outline: none;
+            color: var(--text);
+            background: var(--white);
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            border-color: var(--gold);
+        }
+
+        .simulator-form .btn {
+            width: 100%;
+        }
+
+        .form-note {
+            margin-top: 12px;
+
+            color: var(--muted);
+            font-size: 11px;
+            text-align: center;
+        }

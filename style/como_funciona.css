@@ -1,0 +1,44 @@
+.how-it-works {
+            background: var(--ice);
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .step {
+            position: relative;
+            padding: 30px;
+
+            background: var(--white);
+            border: 1px solid var(--border);
+        }
+
+        .step-number {
+            width: 38px;
+            height: 38px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            margin-bottom: 22px;
+
+            border-radius: 50%;
+            background: var(--navy);
+            color: var(--white);
+
+            font-weight: 700;
+        }
+
+        .step h3 {
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        .step p {
+            color: var(--muted);
+            font-size: 14px;
+        }

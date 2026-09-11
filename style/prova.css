@@ -1,0 +1,36 @@
+ .testimonials {
+            background: var(--off-white);
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+        .testimonial {
+            padding: 35px;
+
+            background: var(--white);
+            border: 1px solid var(--border);
+        }
+
+        .testimonial-stars {
+            margin-bottom: 20px;
+
+            color: var(--gold);
+            letter-spacing: 3px;
+        }
+
+        .testimonial p {
+            margin-bottom: 20px;
+
+            color: var(--text);
+            font-family: "Lora", Georgia, serif;
+            font-size: 18px;
+        }
+
+        .testimonial strong {
+            font-size: 13px;
+            color: var(--muted);
+        }

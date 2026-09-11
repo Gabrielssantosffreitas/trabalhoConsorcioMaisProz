@@ -1,0 +1,44 @@
+ .final-cta {
+            position: relative;
+            overflow: hidden;
+
+            padding: 100px 0;
+
+            background: var(--navy);
+            color: var(--white);
+            text-align: center;
+        }
+
+        .final-cta::before {
+            content: "";
+
+            position: absolute;
+
+            width: 400px;
+            height: 400px;
+
+            left: -220px;
+            bottom: -250px;
+
+            border-radius: 50%;
+            background: var(--navy-dark);
+        }
+
+        .final-cta-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .final-cta h2 {
+            max-width: 700px;
+            margin: 0 auto 15px;
+
+            font-size: clamp(32px, 5vw, 50px);
+        }
+
+        .final-cta p {
+            max-width: 580px;
+            margin: 0 auto 30px;
+
+            color: #CBD7E2;
+        }
